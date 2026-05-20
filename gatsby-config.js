@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/React-Portfolio-website',
+  pathPrefix: '/Portfolio-website',
   siteMetadata: {
 		title: 'Gatsby Html5up - Open-Source app with Stellar design',
     description: `Open-Source Gatsby Starter`,

@@ -28,12 +28,12 @@ If you'd like to run this portfolio locally, here’s how you can do it:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/rishiselvakumaran98/React-Portfolio-website.git
+    git clone https://github.com/rishiselvakumaran98/Portfolio-website.git
     ```
 
 2. **Navigate into the project directory**:
     ```bash
-    cd React-Portfolio-website
+    cd Portfolio-website
     ```
 
 3. **Install dependencies**:
@@ -60,7 +60,7 @@ yarn deploy
 The `public` directory gets pushed to the `gh-pages` branch, which makes the site live at:
 
 ```
-https://rishiselvakumaran98.github.io/React-Portfolio-website/
+https://rishiselvakumaran98.github.io/Portfolio-website/
 ```
 
 ## 📝 License
