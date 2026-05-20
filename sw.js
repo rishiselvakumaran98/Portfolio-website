@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-6e442dcd9e99cdb768aa.js"
+    "url": "webpack-runtime-6a82f41d8de61958598c.js"
   },
   {
     "url": "framework-9d2233ab751940aaa81d.js"
   },
   {
-    "url": "app-5d3e2d2948ec2fc0d38f.js"
+    "url": "app-61bba7b193a114836e90.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-7ee59ccf20e51ee39e83.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e2f04cffb293335f91f3dfd5ff7ea040"
+    "revision": "a77ccf9b6859a2d71ff9486d462fc739"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -47,14 +47,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "3c1d988f4e56d6dfade6fc0ed051203a"
+    "revision": "4efd6b5efaa8e9d9a1936d009206aa42"
   },
   {
-    "url": "polyfill-f60ebe98246f57902d82.js"
+    "url": "polyfill-a3a9cec2e473fc98b294.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "ea019a6849ab26b15876a06bb2ee9812"
+    "revision": "755951f5592eb4ce81ea6e0c7e3c7a3e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -73,12 +73,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/React-Portfolio-website`), ``)
+  pathname = pathname.replace(new RegExp(`^/Portfolio-website`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/React-Portfolio-website/app-5d3e2d2948ec2fc0d38f.js`))) {
+  if (!resources || !(await caches.match(`/Portfolio-website/app-61bba7b193a114836e90.js`))) {
     return await fetch(event.request)
   }
 
@@ -91,7 +91,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/React-Portfolio-website/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/Portfolio-website/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
