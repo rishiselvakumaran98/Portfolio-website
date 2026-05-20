@@ -6,24 +6,24 @@ const SeparateMe = () => {
             <header class="major">
               <h2>Why me?</h2>
             </header>
-                      <p><strong>Passion Meets Expertise</strong><br/>
-            What sets me apart as a software engineer is my deep passion for technology combined with a strong technical foundation. I don’t just write code—I build solutions that solve real-world problems. Whether it's developing full-stack applications or migrating systems to microservices, I approach every project with a drive for excellence and a commitment to innovation.
+                      <p><strong>Ship Fast, Ship Right</strong><br/>
+            At Microsoft I designed and shipped the <strong>Zenith Portal</strong> — a React + .NET tool on Azure AKS that collapsed buildout-ticket creation from hours to minutes. I also delivered a stretch project (Cluster Solver) and contributed to production-grade Private Endpoint automation with retry, failover, and idempotency baked in. I move quickly without cutting corners.
             </p>
 
-            <p><strong>Customer-Centric Mindset</strong><br/>
-            I believe that the best software is built with the end user in mind. From enhancing system performance by 40% at Hughes to optimizing features for real-time user needs, I am always focused on delivering value. My development process revolves around understanding and prioritizing customer requirements, ensuring that every decision I make improves user experience.
+            <p><strong>AI That Solves Real Problems</strong><br/>
+            I built a <strong>hybrid RAG troubleshooting bot</strong> that replaced a pure-LLM strategy with keyword + semantic retrieval over Kubernetes runbooks, cutting median on-call time-to-answer from 10–30 minutes to 1–2 minutes. In my research I engineered SyTGA-KG, a multi-stage NLP pipeline that synthesizes 100 biomedical abstracts into interactive knowledge graphs with 5,000 entities and automated research-gap identification.
             </p>
 
-            <p><strong>Ownership and Responsibility</strong><br/>
-            I take full ownership of the work I do, from ideation to final deployment. My leadership in transitioning legacy systems to microservices at Hughes has not only improved scalability but also earned trust from stakeholders. I believe in taking responsibility for both success and learning, always aiming to exceed expectations.
+            <p><strong>Battle-Tested in Production</strong><br/>
+            At Hughes I hardened Jupiter Gateway Management serving 100+ production satellite gateways — fixing race conditions in DB reads/writes that improved <strong>failover success rate from 50% to 90%</strong> and cut manual recovery from 6 hours to 5 minutes. I also built Jenkins CI/CD pipelines and Ansible deployment scripts that reduced upgrade time by 60%.
             </p>
 
-            <p><strong>Action-Oriented Problem Solver</strong><br/>
-            I thrive in fast-paced environments where quick, decisive action is needed. Whether it’s streamlining deployments with automation scripts or mentoring junior developers to deliver at their best, I don’t wait for problems to be solved—I actively tackle them. My bias for action drives me to find efficient, effective solutions without compromising quality.
+            <p><strong>Research-Driven & Published</strong><br/>
+            I co-authored <em>Beyond Chat and Clicks: GUI Agents for In-Situ Assistance</em>, developing DOMSteer — a Chrome extension using GUI agents for live UI transformations. Our user study with 12 participants across 8 web tasks showed a <strong>25% reduction in task completion time</strong> with 100% accuracy versus 91.7% for a chat baseline.
             </p>
 
-            <p><strong>Innovating Through Complexity</strong><br/>
-            What excites me the most about software development is the challenge of simplifying complex systems. From optimizing batch processing algorithms to securing API endpoints, I embrace innovation and never settle for “just good enough.” I thrive in environments where pushing the limits of what’s possible is the norm, and I’m constantly seeking ways to refine and elevate my craft.
+            <p><strong>Builder of Communities</strong><br/>
+            As president of the UMN LeetCode Club, I built a full-stack platform (Next.js, TypeScript, GraphQL, Firestore) with an LLM-assisted ingestion pipeline standardizing a 227-question bank. The platform powers 6 events serving 200+ club members with real-time RSVP and role-gated admin.
             </p>
           </div>
     )

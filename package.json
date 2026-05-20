@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Rishi Selvakumaran",
   "dependencies": {
+    "@mdx-js/util": "1.6.22",
     "ftp-deploy": "^2.3.3",
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
@@ -42,5 +43,4 @@
     "url": "https://github.com/rishiselvakumaran98/Portfolio-website.git"
   },
   "homepage": "https://rishiselvakumaran98.github.io/Portfolio-website"
-
 }
